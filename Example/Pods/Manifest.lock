@@ -1,0 +1,16 @@
+PODS:
+  - RCSceneGameRoom (0.1.0)
+
+DEPENDENCIES:
+  - RCSceneGameRoom (from `../`)
+
+EXTERNAL SOURCES:
+  RCSceneGameRoom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RCSceneGameRoom: 28c18062d6c1f12c0b25bc17874592085adf599c
+
+PODFILE CHECKSUM: 1deea53b65ee240441eabe4a3870088f20de7c6f
+
+COCOAPODS: 1.11.3

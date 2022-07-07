@@ -1,0 +1,6 @@
+framework module RCSceneGameRoom {
+  umbrella header "RCSceneGameRoom-umbrella.h"
+
+  export *
+  module * { export * }
+}
