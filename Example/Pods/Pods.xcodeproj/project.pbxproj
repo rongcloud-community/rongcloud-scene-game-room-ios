@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113FB0769E0A07499081A368E130AC4E /* Pods-RCSceneGameRoom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E8CEDA5ECFE1281B5DD6C44E3E0C77 /* Pods-RCSceneGameRoom_Tests-dummy.m */; };
+		59C428665B3B5566152829B847507F4B /* Pods-RCSceneGameRoom_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC727CF938040D78C15ECB4AC45E4F26 /* Pods-RCSceneGameRoom_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97DFB47980B618D2A899F2D7E57B35D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9940AF0E2D7C1C277FEA90C540591B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B4E59AB7DF6B8D9F65F4D5D37727565E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F21FD8E49D823BA474D0B9956C175 /* ReplaceMe.swift */; };
+		CD64DC5DAD54A74A40ABDC1910AE1C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CE4E6F7DB21DFF9B2966179260B79030 /* RCSceneGameRoom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BB1DC3D8EC81664D02C555AA91BDB6 /* RCSceneGameRoom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4CD28E9508B93C195538E78202E9E03 /* Pods-RCSceneGameRoom_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF79EAB20B5837B8EA892A2E1A708BF /* Pods-RCSceneGameRoom_Example-dummy.m */; };
+		DAC69F04749468B1D5CD859ECE5F16A7 /* RCSceneGameRoom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCAE2B07A635D647AAA915072AED45E /* RCSceneGameRoom-dummy.m */; };
+		F72335D472CBAE1E142EAF367DE3156E /* Pods-RCSceneGameRoom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B3E390849F88B6A6D31709F8AA6210 /* Pods-RCSceneGameRoom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D066AE790B1E762B380F583F46A6104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85DB9682EABD66C8F48FFFEE325C264F;
+			remoteInfo = "Pods-RCSceneGameRoom_Example";
+		};
+		C8C327F843E183BA281E6628E4E275DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D0E638326844266ABA5FE2D2A897B0;
+			remoteInfo = RCSceneGameRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042E98B91A980DCDAEB6A032DBD02129 /* Pods-RCSceneGameRoom_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCSceneGameRoom_Example-Info.plist"; sourceTree = "<group>"; };
+		105D0B5E42BB93C43B6424F7EDE89A6A /* RCSceneGameRoom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCSceneGameRoom-prefix.pch"; sourceTree = "<group>"; };
+		117F0D3811F4ACD44F9A1772713B6F82 /* RCSceneGameRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCSceneGameRoom.debug.xcconfig; sourceTree = "<group>"; };
+		20E8CEDA5ECFE1281B5DD6C44E3E0C77 /* Pods-RCSceneGameRoom_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCSceneGameRoom_Tests-dummy.m"; sourceTree = "<group>"; };
+		21216888535B4BC35F1BE1606EC27E2F /* Pods-RCSceneGameRoom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCSceneGameRoom_Example.release.xcconfig"; sourceTree = "<group>"; };
+		256FB2D99635A7C9EC5F855CE3E78E42 /* Pods-RCSceneGameRoom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCSceneGameRoom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27624C11037203957EB721349F65289B /* Pods-RCSceneGameRoom_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCSceneGameRoom_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32E5027D0FA2D73CDDCDE48F9FF0C3F4 /* Pods-RCSceneGameRoom_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCSceneGameRoom_Example-frameworks.sh"; sourceTree = "<group>"; };
+		34BB1DC3D8EC81664D02C555AA91BDB6 /* RCSceneGameRoom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCSceneGameRoom-umbrella.h"; sourceTree = "<group>"; };
+		487F8BD0D146A6E2E2825ECC645825C2 /* RCSceneGameRoom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RCSceneGameRoom.modulemap; sourceTree = "<group>"; };
+		492F21FD8E49D823BA474D0B9956C175 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RCSceneGameRoom/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6C5D6CF50AF5683E1B4841F35AD5B723 /* RCSceneGameRoom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RCSceneGameRoom.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F05AD8B988D28CE0F04E33295A864C5 /* RCSceneGameRoom-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RCSceneGameRoom-Info.plist"; sourceTree = "<group>"; };
+		72F2665A4419A9C0DD6B753662D261A4 /* RCSceneGameRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCSceneGameRoom.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77887D8AC4FD37F59BAB39301916B0E0 /* RCSceneGameRoom */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCSceneGameRoom; path = RCSceneGameRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAF330B985A40039C0BB3F34009C239 /* Pods-RCSceneGameRoom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCSceneGameRoom_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7CCAE2B07A635D647AAA915072AED45E /* RCSceneGameRoom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCSceneGameRoom-dummy.m"; sourceTree = "<group>"; };
+		80B3E390849F88B6A6D31709F8AA6210 /* Pods-RCSceneGameRoom_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCSceneGameRoom_Tests-umbrella.h"; sourceTree = "<group>"; };
+		82665DAD54F6450410AE0D8D06B073BD /* Pods-RCSceneGameRoom_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCSceneGameRoom_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		84C3556011B83BF66870BC956BECD48F /* Pods-RCSceneGameRoom_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCSceneGameRoom_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1A8297B4320BFA07B218AE615E2DEA /* Pods-RCSceneGameRoom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCSceneGameRoom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A280DD36A8363D4861F355EAD3E0BD86 /* Pods-RCSceneGameRoom_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCSceneGameRoom_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4BF83BB3EE62B0D906796BD92825DEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A607FF39985BAD1B607ABA30CBF7A8A9 /* Pods-RCSceneGameRoom_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCSceneGameRoom_Example.modulemap"; sourceTree = "<group>"; };
+		C08F6DDBD9BC515CFBFBE3A9F6B338E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C2D0CC032E4514EF84B38DE288D654E0 /* Pods-RCSceneGameRoom_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCSceneGameRoom_Tests.modulemap"; sourceTree = "<group>"; };
+		CDF79EAB20B5837B8EA892A2E1A708BF /* Pods-RCSceneGameRoom_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCSceneGameRoom_Example-dummy.m"; sourceTree = "<group>"; };
+		D5A04E332C11C70A09AAFB700C97330B /* Pods-RCSceneGameRoom_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RCSceneGameRoom_Tests"; path = Pods_RCSceneGameRoom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC727CF938040D78C15ECB4AC45E4F26 /* Pods-RCSceneGameRoom_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCSceneGameRoom_Example-umbrella.h"; sourceTree = "<group>"; };
+		E0D1B48E00B2D558C94E847B70B2B06F /* Pods-RCSceneGameRoom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCSceneGameRoom_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F8270AAF9F397E1FBCBAC6854A80D7A0 /* Pods-RCSceneGameRoom_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RCSceneGameRoom_Example"; path = Pods_RCSceneGameRoom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868297CB0F749BC11E059F0FC2CA52AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9940AF0E2D7C1C277FEA90C540591B64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B213B914AC39934EB48F2325E1FE539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD64DC5DAD54A74A40ABDC1910AE1C7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE62C5F8D61757DA6CD2C279963C467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DFB47980B618D2A899F2D7E57B35D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104EBB56F53BF9E27B02373764F8A5A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				487F8BD0D146A6E2E2825ECC645825C2 /* RCSceneGameRoom.modulemap */,
+				7CCAE2B07A635D647AAA915072AED45E /* RCSceneGameRoom-dummy.m */,
+				6F05AD8B988D28CE0F04E33295A864C5 /* RCSceneGameRoom-Info.plist */,
+				105D0B5E42BB93C43B6424F7EDE89A6A /* RCSceneGameRoom-prefix.pch */,
+				34BB1DC3D8EC81664D02C555AA91BDB6 /* RCSceneGameRoom-umbrella.h */,
+				117F0D3811F4ACD44F9A1772713B6F82 /* RCSceneGameRoom.debug.xcconfig */,
+				72F2665A4419A9C0DD6B753662D261A4 /* RCSceneGameRoom.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RCSceneGameRoom";
+			sourceTree = "<group>";
+		};
+		28D8B31D92F722A9E8B087F8549DC780 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F900118A5DF8140F02797336D18929B /* RCSceneGameRoom */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F900118A5DF8140F02797336D18929B /* RCSceneGameRoom */ = {
+			isa = PBXGroup;
+			children = (
+				492F21FD8E49D823BA474D0B9956C175 /* ReplaceMe.swift */,
+				4208E2770E7CB2FB337F02FF73E804E6 /* Pod */,
+				104EBB56F53BF9E27B02373764F8A5A3 /* Support Files */,
+			);
+			name = RCSceneGameRoom;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4208E2770E7CB2FB337F02FF73E804E6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C08F6DDBD9BC515CFBFBE3A9F6B338E7 /* LICENSE */,
+				6C5D6CF50AF5683E1B4841F35AD5B723 /* RCSceneGameRoom.podspec */,
+				A4BF83BB3EE62B0D906796BD92825DEE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		80E12172E028CAEE2DCC36CF74CB813C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A234083E9043E2EAC8F3E716FEF20A4B /* Pods-RCSceneGameRoom_Example */,
+				C5CBA1C909C53DECC5DEEC5E1F028CA4 /* Pods-RCSceneGameRoom_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A234083E9043E2EAC8F3E716FEF20A4B /* Pods-RCSceneGameRoom_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A607FF39985BAD1B607ABA30CBF7A8A9 /* Pods-RCSceneGameRoom_Example.modulemap */,
+				27624C11037203957EB721349F65289B /* Pods-RCSceneGameRoom_Example-acknowledgements.markdown */,
+				82665DAD54F6450410AE0D8D06B073BD /* Pods-RCSceneGameRoom_Example-acknowledgements.plist */,
+				CDF79EAB20B5837B8EA892A2E1A708BF /* Pods-RCSceneGameRoom_Example-dummy.m */,
+				32E5027D0FA2D73CDDCDE48F9FF0C3F4 /* Pods-RCSceneGameRoom_Example-frameworks.sh */,
+				042E98B91A980DCDAEB6A032DBD02129 /* Pods-RCSceneGameRoom_Example-Info.plist */,
+				DC727CF938040D78C15ECB4AC45E4F26 /* Pods-RCSceneGameRoom_Example-umbrella.h */,
+				E0D1B48E00B2D558C94E847B70B2B06F /* Pods-RCSceneGameRoom_Example.debug.xcconfig */,
+				21216888535B4BC35F1BE1606EC27E2F /* Pods-RCSceneGameRoom_Example.release.xcconfig */,
+			);
+			name = "Pods-RCSceneGameRoom_Example";
+			path = "Target Support Files/Pods-RCSceneGameRoom_Example";
+			sourceTree = "<group>";
+		};
+		C5CBA1C909C53DECC5DEEC5E1F028CA4 /* Pods-RCSceneGameRoom_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2D0CC032E4514EF84B38DE288D654E0 /* Pods-RCSceneGameRoom_Tests.modulemap */,
+				A280DD36A8363D4861F355EAD3E0BD86 /* Pods-RCSceneGameRoom_Tests-acknowledgements.markdown */,
+				256FB2D99635A7C9EC5F855CE3E78E42 /* Pods-RCSceneGameRoom_Tests-acknowledgements.plist */,
+				20E8CEDA5ECFE1281B5DD6C44E3E0C77 /* Pods-RCSceneGameRoom_Tests-dummy.m */,
+				84C3556011B83BF66870BC956BECD48F /* Pods-RCSceneGameRoom_Tests-Info.plist */,
+				80B3E390849F88B6A6D31709F8AA6210 /* Pods-RCSceneGameRoom_Tests-umbrella.h */,
+				9E1A8297B4320BFA07B218AE615E2DEA /* Pods-RCSceneGameRoom_Tests.debug.xcconfig */,
+				7AAF330B985A40039C0BB3F34009C239 /* Pods-RCSceneGameRoom_Tests.release.xcconfig */,
+			);
+			name = "Pods-RCSceneGameRoom_Tests";
+			path = "Target Support Files/Pods-RCSceneGameRoom_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				28D8B31D92F722A9E8B087F8549DC780 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E9817909DB767D092D87B7392AE2362F /* Products */,
+				80E12172E028CAEE2DCC36CF74CB813C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9817909DB767D092D87B7392AE2362F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8270AAF9F397E1FBCBAC6854A80D7A0 /* Pods-RCSceneGameRoom_Example */,
+				D5A04E332C11C70A09AAFB700C97330B /* Pods-RCSceneGameRoom_Tests */,
+				77887D8AC4FD37F59BAB39301916B0E0 /* RCSceneGameRoom */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22121417E7AC48D07BC8139D889E4277 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72335D472CBAE1E142EAF367DE3156E /* Pods-RCSceneGameRoom_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE4995E2461CF178134DD492E335AB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4E6F7DB21DFF9B2966179260B79030 /* RCSceneGameRoom-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC1B995FA9495B05A203ECC21DCD0B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C428665B3B5566152829B847507F4B /* Pods-RCSceneGameRoom_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BA7D35756677CC00A654A74AB89AD0C /* Pods-RCSceneGameRoom_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8CFB1745E2FCDEDE96952433D5D636 /* Build configuration list for PBXNativeTarget "Pods-RCSceneGameRoom_Tests" */;
+			buildPhases = (
+				22121417E7AC48D07BC8139D889E4277 /* Headers */,
+				D5E86C484216DF3891F8AA19DE5DD2B7 /* Sources */,
+				868297CB0F749BC11E059F0FC2CA52AA /* Frameworks */,
+				A3062DCDDDA375FD6AFA82444264A79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A148C4B253F5F24E3199F77346068D4C /* PBXTargetDependency */,
+			);
+			name = "Pods-RCSceneGameRoom_Tests";
+			productName = Pods_RCSceneGameRoom_Tests;
+			productReference = D5A04E332C11C70A09AAFB700C97330B /* Pods-RCSceneGameRoom_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		85DB9682EABD66C8F48FFFEE325C264F /* Pods-RCSceneGameRoom_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCCB871C0EC9D9B6EF00109E1B9288F /* Build configuration list for PBXNativeTarget "Pods-RCSceneGameRoom_Example" */;
+			buildPhases = (
+				FBC1B995FA9495B05A203ECC21DCD0B8 /* Headers */,
+				D1AF3C5064D84A108155AC435E52D580 /* Sources */,
+				DEE62C5F8D61757DA6CD2C279963C467 /* Frameworks */,
+				9FE4DDEDB0DAEB5A8C4676FA0A1E4CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C755EE81DDC76F7A92C3FF638B37B0A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-RCSceneGameRoom_Example";
+			productName = Pods_RCSceneGameRoom_Example;
+			productReference = F8270AAF9F397E1FBCBAC6854A80D7A0 /* Pods-RCSceneGameRoom_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3D0E638326844266ABA5FE2D2A897B0 /* RCSceneGameRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478143B0592A1338BF52D7D388394C91 /* Build configuration list for PBXNativeTarget "RCSceneGameRoom" */;
+			buildPhases = (
+				DAE4995E2461CF178134DD492E335AB7 /* Headers */,
+				DAC2772828D61529792C979DF0273982 /* Sources */,
+				9B213B914AC39934EB48F2325E1FE539 /* Frameworks */,
+				23F3AC78DC7DCCD353C541E4DBD764CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCSceneGameRoom;
+			productName = RCSceneGameRoom;
+			productReference = 77887D8AC4FD37F59BAB39301916B0E0 /* RCSceneGameRoom */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E9817909DB767D092D87B7392AE2362F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85DB9682EABD66C8F48FFFEE325C264F /* Pods-RCSceneGameRoom_Example */,
+				6BA7D35756677CC00A654A74AB89AD0C /* Pods-RCSceneGameRoom_Tests */,
+				C3D0E638326844266ABA5FE2D2A897B0 /* RCSceneGameRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F3AC78DC7DCCD353C541E4DBD764CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE4DDEDB0DAEB5A8C4676FA0A1E4CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3062DCDDDA375FD6AFA82444264A79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1AF3C5064D84A108155AC435E52D580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CD28E9508B93C195538E78202E9E03 /* Pods-RCSceneGameRoom_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E86C484216DF3891F8AA19DE5DD2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113FB0769E0A07499081A368E130AC4E /* Pods-RCSceneGameRoom_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC2772828D61529792C979DF0273982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC69F04749468B1D5CD859ECE5F16A7 /* RCSceneGameRoom-dummy.m in Sources */,
+				B4E59AB7DF6B8D9F65F4D5D37727565E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A148C4B253F5F24E3199F77346068D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RCSceneGameRoom_Example";
+			target = 85DB9682EABD66C8F48FFFEE325C264F /* Pods-RCSceneGameRoom_Example */;
+			targetProxy = 8D066AE790B1E762B380F583F46A6104 /* PBXContainerItemProxy */;
+		};
+		C755EE81DDC76F7A92C3FF638B37B0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCSceneGameRoom;
+			target = C3D0E638326844266ABA5FE2D2A897B0 /* RCSceneGameRoom */;
+			targetProxy = C8C327F843E183BA281E6628E4E275DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CABC0FED6D881F48D46E84AA121339B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117F0D3811F4ACD44F9A1772713B6F82 /* RCSceneGameRoom.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCSceneGameRoom/RCSceneGameRoom-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCSceneGameRoom/RCSceneGameRoom-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RCSceneGameRoom/RCSceneGameRoom.modulemap";
+				PRODUCT_MODULE_NAME = RCSceneGameRoom;
+				PRODUCT_NAME = RCSceneGameRoom;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3490CC49E523A0297539DA5C627F3A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1A8297B4320BFA07B218AE615E2DEA /* Pods-RCSceneGameRoom_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCSceneGameRoom_Tests/Pods-RCSceneGameRoom_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCSceneGameRoom_Tests/Pods-RCSceneGameRoom_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A280E8B41B2329B2D60BB42581FA579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F2665A4419A9C0DD6B753662D261A4 /* RCSceneGameRoom.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCSceneGameRoom/RCSceneGameRoom-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCSceneGameRoom/RCSceneGameRoom-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RCSceneGameRoom/RCSceneGameRoom.modulemap";
+				PRODUCT_MODULE_NAME = RCSceneGameRoom;
+				PRODUCT_NAME = RCSceneGameRoom;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B6D419CC5268B8AF89AADC552621FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21216888535B4BC35F1BE1606EC27E2F /* Pods-RCSceneGameRoom_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCSceneGameRoom_Example/Pods-RCSceneGameRoom_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCSceneGameRoom_Example/Pods-RCSceneGameRoom_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		732166F2517469188BBE506281E4B7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAF330B985A40039C0BB3F34009C239 /* Pods-RCSceneGameRoom_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCSceneGameRoom_Tests/Pods-RCSceneGameRoom_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCSceneGameRoom_Tests/Pods-RCSceneGameRoom_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F2DD2B0081732AB48D565A1C62C3A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D1B48E00B2D558C94E847B70B2B06F /* Pods-RCSceneGameRoom_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCSceneGameRoom_Example/Pods-RCSceneGameRoom_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCSceneGameRoom_Example/Pods-RCSceneGameRoom_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FCCB871C0EC9D9B6EF00109E1B9288F /* Build configuration list for PBXNativeTarget "Pods-RCSceneGameRoom_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2DD2B0081732AB48D565A1C62C3A59 /* Debug */,
+				5B6D419CC5268B8AF89AADC552621FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478143B0592A1338BF52D7D388394C91 /* Build configuration list for PBXNativeTarget "RCSceneGameRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CABC0FED6D881F48D46E84AA121339B /* Debug */,
+				5A280E8B41B2329B2D60BB42581FA579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8CFB1745E2FCDEDE96952433D5D636 /* Build configuration list for PBXNativeTarget "Pods-RCSceneGameRoom_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3490CC49E523A0297539DA5C627F3A84 /* Debug */,
+				732166F2517469188BBE506281E4B7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
