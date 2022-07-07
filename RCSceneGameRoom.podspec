@@ -53,6 +53,7 @@ Pod::Spec.new do |s|
   s.dependency 'Reusable'
   s.dependency 'Pulsator'
   s.dependency 'Kingfisher'
+  s.dependency 'AFNetworking'
   
   s.dependency 'RCSceneRoom/RCSceneRoom'
   s.dependency 'RCSceneRoom/RCSceneGift'
