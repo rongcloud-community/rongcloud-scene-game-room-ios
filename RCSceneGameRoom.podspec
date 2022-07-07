@@ -37,6 +37,8 @@ Pod::Spec.new do |s|
       'SWIFT_COMPILATION_MODE' => 'Incremental',
       'OTHER_SWIFT_FLAGS' => '-Xfrontend -enable-dynamic-replacement-chaining',
   }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 
   s.source_files = 'RCSceneGameRoom/Classes/**/*'
   
