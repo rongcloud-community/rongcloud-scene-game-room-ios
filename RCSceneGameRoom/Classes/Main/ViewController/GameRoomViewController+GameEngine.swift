@@ -224,7 +224,7 @@ extension GameRoomViewController: GameSwitchSelectDelegate {
                 self.backgroundImageView.image = imageLoadingResult.image
                 
                 RCGameEngine.shared().destroy()
-                RCGameEngine.shared().switchGame(Int(newGame.gameId)!) { code, resMsg, dataJson in
+                RCGameEngine.shared().switchGame(newGame.gameId) { code, resMsg, dataJson in
                     self.reportSwitchGame(gameId: newGame.gameId)
                 }
             case let .failure(error):
@@ -245,6 +245,14 @@ extension GameRoomViewController: GameSwitchSelectDelegate {
 
 
 extension GameRoomViewController: RCGameStateDelegate {
+    func onGameASRChanged(_ isOpen: Bool) {
+        
+    }
+    
+    func onGameLoadingProgress(_ loadingStage: RCGameLoadingStage, errorCode: Int, progress: Int) {
+        
+    }
+    
     func onGameLoaded() {
         RCRTCEngine.sharedInstance().defaultAudioStream.bitrateValue = 16000
         RCRTCEngine.sharedInstance().defaultAudioStream.audioCodecType = .PCMU
@@ -336,6 +344,14 @@ extension GameRoomViewController: RCGameStateDelegate {
 
 
 extension GameRoomViewController: RCGamePlayerStateDelegate {
+    func onPlayerTurnStatus(_ userId: String, isTurn: Bool) {
+        
+    }
+    
+    func onPlayerDieStatus(_ userId: String, isDeath: Bool) {
+        
+    }
+    
     func onPlayer(in userId: String, isIn: Bool, teamId: Int) {
         let loginUser = self.currentLoginUser()
         let roomOwnerId = self.voiceRoomInfo.userId

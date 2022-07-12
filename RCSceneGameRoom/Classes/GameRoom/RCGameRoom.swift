@@ -6,7 +6,9 @@ public var RCSceneVoiceRoomEnableSwitchableBackgroundImage = false
 public func RCGameEngineInit(isDebug: Bool)  {
     let gconfig = RCGameConfig()
     gconfig.isDebug = isDebug
-    RCGameEngine.shared().initWithAppId("1496435759618818049", appKey: "YS7NZ6rUAnbi0DruJJiUCmcH1AkCrQk6", config: gconfig)
+    RCGameEngine.shared().initWithAppId("1496435759618818049", appKey: "YS7NZ6rUAnbi0DruJJiUCmcH1AkCrQk6", config: gconfig) { code, resMsg, dataJson in
+        
+    }
 }
 
 
