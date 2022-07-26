@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/rongcloud-community/rongcloud-scene-game-room-ios.git', :tag => s.version.to_s }
 
   # Version
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
   s.static_framework = true
 
@@ -46,12 +46,14 @@ Pod::Spec.new do |s|
     'RCSceneGameRoom' => ['RCSceneGameRoom/Assets/*.xcassets']
   }
 
-  s.dependency 'RCTinyGameLib'
+  # s.dependency 'RCTinyGameLib'
+
+  s.vendored_frameworks = 'RCSceneGameRoom/RCTinyGameLib.xcframework'
+
   
   s.dependency 'SnapKit'
   s.dependency 'Reusable'
   s.dependency 'Pulsator'
-  s.dependency 'Kingfisher'
   s.dependency 'AFNetworking'
   
   s.dependency 'RCSceneRoom/RCSceneRoom'

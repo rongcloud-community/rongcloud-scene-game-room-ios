@@ -70,19 +70,21 @@ public class UserListViewController: UIViewController {
         view.addSubview(emptyView)
         view.addSubview(tableView)
         
-//        navigationController?.navigationBar.isTranslucent = true
-//        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-//        navigationController?.navigationBar.shadowImage = UIImage()
-
-        let appearance = UINavigationBarAppearance.init()
-        appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = UIColor(red: 108/255.0, green: 55/255.0, blue: 169/255.0, alpha: 1.0)
-        let effect = UIBlurEffect(style: .regular)
-        appearance.backgroundEffect = effect
-        appearance.shadowImage = UIImage.init()
-        appearance.shadowColor = UIColor.clear
-        navigationController?.navigationBar.standardAppearance = appearance
-        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        if #available(iOS 13.0, *) {
+            let appearance = UINavigationBarAppearance.init()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = UIColor(red: 108/255.0, green: 55/255.0, blue: 169/255.0, alpha: 1.0)
+            let effect = UIBlurEffect(style: .regular)
+            appearance.backgroundEffect = effect
+            appearance.shadowImage = UIImage.init()
+            appearance.shadowColor = UIColor.clear
+            navigationController?.navigationBar.standardAppearance = appearance
+            navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        } else {
+            navigationController?.navigationBar.isTranslucent = true
+            navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+            navigationController?.navigationBar.shadowImage = UIImage()
+        }
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: cancelButton)
         navigationItem.titleView = titleLabel
