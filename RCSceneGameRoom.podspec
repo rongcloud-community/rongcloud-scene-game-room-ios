@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   s.dependency 'SnapKit'
   s.dependency 'Reusable'
   s.dependency 'Pulsator'
-  s.dependency 'Kingfisher'
+  s.dependency 'Kingfisher', '5.15.8'
   s.dependency 'AFNetworking'
   
   s.dependency 'RCSceneRoom/RCSceneRoom'
