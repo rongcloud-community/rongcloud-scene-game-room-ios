@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
 
   # s.dependency 'RCTinyGameLib'
 
-  s.vendored_frameworks = 'RCSceneGameRoom/RCTinyGameLib.xcframework'
+  s.vendored_frameworks = 'RCSceneGameRoom/RCTinyGameLib.xcframework', 'SudMGP.xcframework'
 
   
   s.dependency 'SnapKit'
