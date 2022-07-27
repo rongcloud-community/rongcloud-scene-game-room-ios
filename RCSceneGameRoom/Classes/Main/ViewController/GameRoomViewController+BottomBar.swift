@@ -46,10 +46,7 @@ extension GameRoomViewController {
     }
     
     @objc func handleMessageButtonClick() {
-        let vc = ChatListViewController(.ConversationType_PRIVATE)
-        vc.delegate = self
-        navigationController?.navigationBar.isHidden = false
-        navigationController?.pushViewController(vc, animated: true)
+        ChatListViewController.presenting(self)
     }
     
     func fetchForbidden() {
@@ -143,9 +140,3 @@ extension String {
     }
 }
 
-
-extension GameRoomViewController: ChatListViewControllerProtocol {
-    func chatListViewControllerBack() {
-        navigationController?.navigationBar.isHidden = true
-    }
-}

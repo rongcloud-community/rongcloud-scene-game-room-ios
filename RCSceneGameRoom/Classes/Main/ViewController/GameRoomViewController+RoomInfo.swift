@@ -108,9 +108,9 @@ extension GameRoomViewController: UserListOperationProtocol {
     }
     
     func privateChatTo(userId: String) {
-        let vc = ChatViewController(.ConversationType_PRIVATE, userId: userId)
-        vc.canCallComing = false
-        self.userViewPopListVc?.navigationController?.pushViewController(vc, animated: true)
+        if let userListVc = self.userViewPopListVc {
+            ChatViewController.presenting(userListVc, userId: userId)
+        }
     }
     
     

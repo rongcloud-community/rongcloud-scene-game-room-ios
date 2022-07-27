@@ -1,6 +1,0 @@
-framework module RCTinyGameLib {
-  umbrella header "RCTinyGameLib.h"
-
-  export *
-  module * { export * }
-}

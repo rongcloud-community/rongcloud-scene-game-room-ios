@@ -572,3 +572,17 @@ extension GameRoomViewController: RCIMReceiveMessageDelegate {
         return true
     }
 }
+
+
+extension UIViewController {
+    @objc
+    func navigationWarpBackTrigger(_ animated: Bool = true) {
+        guard let controller = navigationController else {
+            return dismiss(animated: animated)
+        }
+        if controller.viewControllers.first == self {
+            return dismiss(animated: animated)
+        }
+        controller.popViewController(animated: animated)
+    }
+}

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RCSceneGameRoom.h"
 
 FOUNDATION_EXPORT double RCSceneGameRoomVersionNumber;
 FOUNDATION_EXPORT const unsigned char RCSceneGameRoomVersionString[];

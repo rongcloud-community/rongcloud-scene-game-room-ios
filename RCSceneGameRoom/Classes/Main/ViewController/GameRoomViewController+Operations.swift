@@ -326,11 +326,7 @@ extension GameRoomViewController: OnSeatUserOperationProtocol {
     
     func didClickedPrivateChat(controller: OnSeatUserOperationController) {
         let userId = controller.currentSeatUser.userId!
-        let vc = ChatViewController(.ConversationType_PRIVATE, userId: userId)
-        vc.delegate = self
-        vc.canCallComing = false
-        navigationController?.navigationBar.isHidden = false
-        navigationController?.pushViewController(vc, animated: true)
+        ChatViewController.presenting(self, userId: userId)
     }
     
     
@@ -390,10 +386,3 @@ extension GameRoomViewController: OnSeatUserOperationProtocol {
     }
 }
 
-
-
-extension GameRoomViewController: ChatViewControllerProtocol {
-    func chatViewControllerBack() {
-        navigationController?.navigationBar.isHidden = true
-    }
-}

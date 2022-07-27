@@ -46,10 +46,7 @@ Pod::Spec.new do |s|
     'RCSceneGameRoom' => ['RCSceneGameRoom/Assets/*.xcassets']
   }
 
-  # s.dependency 'RCTinyGameLib'
-
-  s.vendored_frameworks = 'RCSceneGameRoom/RCTinyGameLib.xcframework', 'SudMGP.xcframework'
-
+  s.dependency 'RCTinyGameLib'
   
   s.dependency 'SnapKit'
   s.dependency 'Reusable'
