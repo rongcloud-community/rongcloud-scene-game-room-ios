@@ -21,14 +21,7 @@ public func RCGameRoomController(room: RCSceneRoom, creation: Bool = false, prel
 }
 
 extension GameRoomViewController: RCRoomCycleProtocol {
-    func setRoomContainerAction(action: RCRoomContainerAction) {
-        self.roomContainerAction = action
-    }
-    
-    func setRoomFloatingAction(action: RCSceneRoomFloatingProtocol) {
-        self.floatingManager = action
-    }
-    
+
     func joinRoom(_ completion: @escaping (Result<Void, RCSceneError>) -> Void) {
         SceneRoomManager.shared.voice_join(voiceRoomInfo.roomId, complation: completion)
     }

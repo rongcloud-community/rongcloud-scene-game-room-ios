@@ -4,6 +4,7 @@
 //
 //  Created by shaoshuai on 2021/6/18.
 //
+import RCSceneKit
 
 extension GameRoomViewController {
     @_dynamicReplacement(for: setupModules)
@@ -30,7 +31,7 @@ extension GameRoomViewController {
                 VoiceRoomNotification.rejectManagePick.send(content: from)
             }))
             
-            if let fm = self.floatingManager, fm.showing {
+            if RCSPageFloaterManager.shared().showing() {
                 UIApplication.shared.keyWindow()?.rootViewController?.present(alertVC, animated: true)
             } else {
                 topmostController().present(alertVC, animated: true)

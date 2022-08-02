@@ -9,7 +9,7 @@ import Kingfisher
 import RCSceneRoom
 import UIKit
 import RCSceneRoom
- 
+import RCSceneKit
 
 let alertTypeVideoAlreadyClose = "alertTypeVideoAlreadyClose"
 let alertTypeConfirmCloseRoom = "alertTypeConfirmCloseRoom"
@@ -21,7 +21,6 @@ struct managersWrapper: Codable {
 
 
 class GameRoomViewController: UIViewController {
-    weak var roomContainerAction: RCRoomContainerAction?
     dynamic var kvRoomInfo: RCVoiceRoomInfo?
     dynamic var voiceRoomInfo: RCSceneRoom
     
@@ -43,8 +42,6 @@ class GameRoomViewController: UIViewController {
     
     let isCreate: Bool
     var isFastIn: Bool = false
-    
-    var floatingManager: RCSceneRoomFloatingProtocol?
     
     let pickDownBtn = OnSeatUserAction.pickDown.button
     let lockSeatBtn = OnSeatUserAction.lockSeat.button
@@ -260,7 +257,22 @@ class GameRoomViewController: UIViewController {
     }
     
     func roomContainerSwitchRoom(_ room: RCSceneRoom) {
-        self.roomContainerAction?.switchRoom(room)
+        guard let containerVC = self.parent as? RCSPageContainerController else { return }
+        
+        if SceneRoomManager.shared.currentRoom?.roomType == room.roomType {
+            if let index = containerVC.pageItems.firstIndex(where: { $0.pageId == room.roomId }) {
+                containerVC.currentIndex = index
+                return
+            }
+        }
+        let item = RCSPageModel()
+        item.switchable = room.switchable
+        item.pageId = room.roomId
+        item.backgroudUrl = room.backgroundUrl
+        containerVC.pageItems = [item]
+        containerVC.reloadData()
+        containerVC.currentIndex = 0
+        containerVC.setScrollable(false)
     }
     
     
@@ -499,9 +511,7 @@ extension GameRoomViewController {
         SceneRoomManager.shared
             .voice_leave { [weak self] result in
                 SceneRoomManager.shared.currentRoom = nil
-                if let fm = self?.floatingManager {
-                    fm.hide()
-                }
+                RCSPageFloaterManager.shared().hide()
                 SVProgressHUD.dismiss()
                 switch result {
                 case .success:

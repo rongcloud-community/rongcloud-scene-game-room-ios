@@ -9,6 +9,7 @@ import SVProgressHUD
 import UIKit
 import SwiftUI
 import AVFAudio
+import RCSceneKit
 
 extension GameRoomViewController {
     
@@ -81,7 +82,8 @@ extension GameRoomViewController {
                     SVProgressHUD.showInfo(withStatus: "上麦成功")
                     self?.micStateButton.isHidden = false
                     self?.roomState.connectState = .connecting
-                    self?.roomContainerAction?.disableSwitchRoom()
+                    guard let containerVC = self?.parent as? RCSPageContainerController else { return }
+                    containerVC.setScrollable(false)
                 }
             } error: { [weak self] code, msg in
                 DispatchQueue.main.async {
@@ -106,7 +108,8 @@ extension GameRoomViewController {
                 //mark: to be set delegate
                 if !(self.currentUserRole() == .creator) {
                     self.roomState.connectState = .request
-                    self.roomContainerAction?.enableSwitchRoom()
+                    guard let containerVC = self.parent as? RCSPageContainerController else { return }
+                    containerVC.setScrollable(true)
                 }
                 
                 if self.voiceRoomInfo.isOwner {
