@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RCSceneGameRoom'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Scene Game Room'
 
 # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   s.dependency 'Pulsator'
   s.dependency 'AFNetworking'
   
-  s.dependency 'RCSceneRoom/RCSceneRoom'
+  s.dependency 'RCSceneRoom/RCSceneRoom', '>= 0.0.4.5'
   s.dependency 'RCSceneRoom/RCSceneGift'
   s.dependency 'RCSceneRoom/RCSceneMusic'
   s.dependency 'RCSceneRoom/RCSceneAnalytics'

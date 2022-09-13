@@ -54,7 +54,7 @@ extension GameRoomViewController {
     @_dynamicReplacement(for: handleReceivedMessage(_:))
     private func seats_handleReceivedMessage(_ message :RCMessage) {
         handleReceivedMessage(message)
-        guard message.content.isKind(of: RCChatroomAdmin.self) else { return }
+        let _ = message.content as? RCChatroomAdmin
         // 更新管理员列表
         fetchManagers()
     }
